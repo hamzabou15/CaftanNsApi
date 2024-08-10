@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 var mongoose = require('mongoose');
-const Products = require('../caftanApi/api/Products');
 const Reviews = require('../caftanApi/api/Review');
 const Register = require('../caftanApi/api/Register');
 const Login = require('../caftanApi/api/Login');
@@ -9,6 +8,8 @@ const Contact = require('../caftanApi/api/Contact')
 const News = require('../caftanApi/api/Newsletter')
 const stripe = require('../caftanApi/api/Stripe')
 const order = require('../caftanApi/api/Order')
+const Products = require('../caftanApi/api/Products')
+
 
 
 const cors = require('cors');
