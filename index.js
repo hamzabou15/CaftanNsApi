@@ -27,8 +27,7 @@ dotenv.config();
     }).then(() =>  console.log("DB Connection Successfull")).catch((err) => console.log(err))
 
 
-
-
+// port
   app.listen(8080, () => console.log('back end is running '));
 
   const whitelist = ['http://192.168.0.190:3000/ ', ' http://localhost:3000/ ' ]
